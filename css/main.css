@@ -1,7 +1,7 @@
 html {
   background-color: #fff;
   font-family: 'Open Sans', sans-serif;
-  color:#636464;
+  color:#0C2026;
 }
 .name {
   font-family: 'Solway', serif;
@@ -30,6 +30,12 @@ html {
   text-decoration: none;
   color: #636464;
 }
+
+.navstyle a:hover {
+  color: #00606D;
+  border-bottom: 3.5px solid #FFBF4B;
+}
+
 .bgcolor {
   background-color: #fff;
 }
