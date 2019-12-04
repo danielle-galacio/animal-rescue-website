@@ -39,3 +39,39 @@ html {
 .bgcolor {
   background-color: #fff;
 }
+
+.banner {
+  background:
+    linear-gradient(rgba(16, 52, 41, 0) 50%, rgba(0, 0, 0, 0.5)),
+    url("../images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 3px solid #FFBF4B;
+  background-position: center bottom;
+}
+
+.banner-content {
+  background-image: url("../images/placeholder.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding-top: 300px;
+}
+
+h2 {
+  font-family: 'Solway', serif;
+  color: #fff;
+}
+
+.banner p {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: #636464;
+}
+
+.bannerbtn {
+  background-color: #fff;
+  border-color: #fff;
+  border-radius: 75px;
+  color: #00606D;
+}
