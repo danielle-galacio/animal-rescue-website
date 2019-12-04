@@ -1,0 +1,35 @@
+html {
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  color:#636464;
+}
+.name {
+  font-family: 'Solway', serif;
+  color: #00BDC9;
+}
+
+.masthead {
+  background-color: #fbfaff;
+  color: #fff;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo-text {
+  display: inline-block;
+  width: 9em;
+}
+
+.nav {
+  text-align: center;
+}
+
+.navstyle {
+  text-decoration: none;
+  color: #636464;
+}
+.bgcolor {
+  background-color: #fff;
+}
