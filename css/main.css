@@ -3,6 +3,7 @@ html {
   font-family: 'Open Sans', sans-serif;
   color:#0C2026;
 }
+
 .name {
   font-family: 'Solway', serif;
   color: #00BDC9;
@@ -39,23 +40,29 @@ html {
 .bgcolor {
   background-color: #fff;
 }
+/*
+.banner-content {
+  background-image: url("../images/catdogbanner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  padding-top: 300px;
+}*/
 
 .banner {
   background:
-    linear-gradient(rgba(16, 52, 41, 0) 50%, rgba(0, 0, 0, 0.5)),
-    url("../images/banner.jpg");
+    linear-gradient(rgba(16, 52, 41, 0) 50%, rgba(0, 0, 0, .8)),
+    url("../images/catdogbanner3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  border-bottom: 3px solid #FFBF4B;
-  background-position: center bottom;
+  background-position: center center;
+  padding-top: 300px;
 }
 
-.banner-content {
-  background-image: url("../images/placeholder.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+h1 {
+  font-family: 'Solway', serif;
   color: #fff;
-  padding-top: 300px;
 }
 
 h2 {
@@ -63,15 +70,66 @@ h2 {
   color: #fff;
 }
 
+h3 {
+  font-family: 'Solway', serif;
+  color: #00BDC9;
+}
+
 .banner p {
   font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: #fff;
+}
+
+.bannerbtn {
+  font-family: 'Solway', serif;
+  background-color: #00BDC9;
+  border: none;
+  border-radius: 75px;
+  color: #fff;
+}
+
+.bannerbtn:hover {
+  font-family: 'Solway', serif;
+  background-color: #fff;
+  border: none;
+  border-radius: 75px;
+  color: #FFBF4B;
+}
+
+.card {
+  background-color: #fff;
+  border: 3px solid  #fafafa;
+  border-radius: 13px;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+}
+
+.card > img {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .leftform {
+    padding-right: 20px;
+  }
+}
+
+.bgcolor {
+  background-color: #FBFBFB;
+}
+
+.footerlink {
   text-decoration: none;
   color: #636464;
 }
 
-.bannerbtn {
-  background-color: #fff;
-  border-color: #fff;
-  border-radius: 75px;
-  color: #00606D;
+.link-card {
+  text-decoration: none;
+  color: 999;
 }
