@@ -4,6 +4,10 @@ html {
   color:#0C2026;
 }
 
+.header {
+  padding-top: 1.3rem;
+}
+
 .name {
   font-family: 'Solway', serif;
   color: #00BDC9;
@@ -62,7 +66,7 @@ html {
 
 h1 {
   font-family: 'Solway', serif;
-  color: #fff;
+  color: #00BDC9;
 }
 
 h2 {
@@ -132,4 +136,13 @@ h3 {
 .link-card {
   text-decoration: none;
   color: 999;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .header {
+    padding-top: 0;
+  }
+
+
 }
