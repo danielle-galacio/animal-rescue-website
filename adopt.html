@@ -9,6 +9,8 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Solway:700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon-196.png">
 </head>
 
 <body>
@@ -16,87 +18,124 @@
     <li><a href="#nav"> Jump to navigation</a></li>
     <li><a href="#main"> Jump to main content</a></li>
   </ul>
-  <header class="header" role="banner">
-    <div class="grid grid-middle gutter bgcolor">
+
+  <header role="banner">
+    <div class="header grid grid-middle gutter bgcolor">
       <p class="logo push-0 unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-2 pad-b-1-2">
-        <i class="icon i-48"><img src="images/placeholder.svg" alt="" role="presentation"></i>
-        <a class="icon-link" href="index.html"><span class="name exa icon-label text-left">Loyal Rescue</span></a>
+        <i class="icon i-48 embed"><img class="embed-item" src="images/placeholder.svg" alt="" role="presentation"></i>
+        <a class="icon-link" href="index.html"><span class="name exa icon-label text-left">Loyal Rescue </span></a>
       </p>
-      <nav role="navigation" id="nav" class="nav unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-2 pad-b-1-2">
+      <nav role="navigation" id="nav" tabindex="0" class="nav unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-2 pad-b-1-2">
         <ul class="navstyle bold list-group-inline kilo push-0">
           <li class="gutter-1-4"><a class="micro navstyle ib gutter-1-4" href="index.html"><span>HOME</span></a></li>
           <li class="gutter-1-4"><a class="micro navstyle ib gutter-1-4" href="rescues.html"><span>RESCUES</span></a></li>
           <li class="gutter-1-4"><a class="micro navstyle ib gutter-1-4" href="adopt.html"><span>ADOPT</span></a></li>
-          <li class="gutter-1-4"> <a class="micro navstyle ib gutter-1-4" href="faq.html">FAQ</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-<div class="push">
-  <div class="banner">
-    <div class="banner-content pad-b gutter-2">
-      <h1 class="push-0 zetta">Our favorite breed is rescued</h1>
-      <p class="max-length-no-center milli">Loyal Rescue, established in 2008, in Ontario, Canada, is a foster-based, all-volunteer rescue that strives to rehabilitate dogs both physically and emotionally, making them ready for adoption. </p>
-    </div>
-  </div>
-</div>
+  <main class="gutter" role="main" id="main" tabindex="0">
+    <section>
+      <div class="push">
+        <div class="banner" role="complementary">
+          <div class="banner-content pad-b gutter-2">
+            <h1 class="push-0 zetta">Adopt now!</h1>
+            <p class="max-length-no-center milli">Loyal Rescue, established in 2008, in Ontario, Canada, is a foster-based, all-volunteer rescue that strives to rehabilitate dogs both physically and emotionally, making them ready for adoption. </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<main class="gutter">
-  <form>
+    <article>
+      <form method="POST" action="gala0058@algonquinlive.com">
+        <div class="grid">
+          <div class="leftform unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push">
+            <label for="name" class="push-1-8"> Full Name</label>
+            <input id="name" name="name" class="push-1-8" required>
+            <p class="micro italic"></p>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push">
+            <label for="dogname" class="push-1-8"> Name of the dog </label>
+            <input id="dogname" name="dogname" class="push-1-8" required>
+            <p class="micro italic"></p>
+          </div>
+
+          <div class="leftform unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push">
+            <label for="address" class="push-1-8"> Street Address </label>
+            <input id="address" name="address" class="push-1-8" required>
+            <p class="micro italic"></p>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push">
+            <label for="city" class="push-1-8"> City </label>
+            <input id="city" name="city" class="push-1-8" required>
+            <p class="micro italic"></p>
+          </div>
+
+          <div class="leftform unit xs-1 s-1 m-1-2 l-1-2 xl-1-2pad-b-3-4 push-1-2 pad-t-1-8">
+            <label for="province" class="push-1-8"> Province </label>
+            <select id="province" name="province" class="push-1-8">
+              <option>Select a province</option>
+              <option>Alberta</option>
+              <option>British Columbia</option>
+              <option>Manitoba</option>
+              <option>New Brunswick</option>
+              <option>Newfoundland & Labrador</option>
+              <option>Northwest Territories</option>
+              <option>Nova Scotia</option>
+              <option>Nunavut</option>
+              <option>Ontario</option>
+              <option>Prince Edward Island</option>
+              <option>Québec</option>
+              <option>Saskatchewan</option>
+              <option>Yukon</option>
+            </select>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push">
+            <label for="nickname" class="push-1-8"> Postal Code </label>
+            <input id="nickname" name="nickname" class="push-1-8" required>
+            <p class="micro italic"></p>
+          </div>
+
+        </div>
+        <button class="next bannerbtn btn milli push-r-1-2" type="submit">Submit</button>
+      </form>
+
+    </article>
+  </main>
+
+  <footer role="contentinfo" class="gutter pad-t pad-b bgcolor">
     <div class="grid">
-      <div class="leftform unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push">
-        <label for="name" class="push-1-8"> Full Name  </label>
-        <input id="name" name="name" class="push-1-8" required>
-        <p class="micro italic"></p>
+      <h2 class="push-0 unit xs-1 s-1 m-1-4 l-1-4 pad-t-1-2 pad-b-1-2">
+        <i class="icon i-32"><img src="images/placeholder.svg" alt="" role="presentation"></i>
+        <a class="icon-link" href="index.html"><span class="name tera icon-label text-left">Loyal Rescue </span></a>
+      </h2>
+
+      <div class="unit xs-1 s-1 m-1-4 l-1-4 xl-1-4">
+        <h3 class="kilo push-0"> Company</h3>
+        <ul class="list-group">
+          <li><a class="footerlink micro" href="#"> About us</a></li>
+          <li><a class="footerlink micro" href="#"> Pricing</a></li>
+          <li><a class="footerlink micro" href="#"> Terms of use</a></li>
+          <li><a class="footerlink micro" href="#"> Privacy policy</a></li>
+        </ul>
       </div>
-
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push">
-        <label for="nickname" class="push-1-8"> Name of the dog </label>
-        <input id="nickname" name="nickname" class="push-1-8" required>
-        <p class="micro italic"></p>
+      <div class="unit xs-1 s-1 m-1-4 l-1-4 xl-1-4">
+        <h3 class="kilo push-0"> Support</h3>
+        <ul class="list-group">
+          <li><a class="footerlink micro" href="#"> FAQ</a></li>
+          <li><a class="footerlink micro" href="#"> Contact us</a></li>
+        </ul>
       </div>
-
-      <div class="leftform unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push">
-        <label for="nickname" class="push-1-8"> Street Address </label>
-        <input id="nickname" name="nickname" class="push-1-8" required>
-        <p class="micro italic"></p>
+      <div class="unit xs-1 s-1 m-1-4 l-1-4 xl-1-4">
+        <h3 class="kilo push-0"> Email us at:</h3>
+        <a class="footerlink micro" href="#"> dex@gmail.com</a>
       </div>
-
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push">
-        <label for="nickname" class="push-1-8"> City </label>
-        <input id="nickname" name="nickname" class="push-1-8" required>
-        <p class="micro italic"></p>
-      </div>
-
-      <div class="leftform unit xs-1 s-1 m-1-2 l-1-2 xl-1-2pad-b-3-4 push-1-2 pad-t-1-8">
-        <label for="province" class="push-1-8"> Province </label>
-        <select id="province" name="province" class="push-1-8">
-          <option>Select a province</option>
-          <option>Alberta</option>
-          <option>British Columbia</option>
-          <option>Manitoba</option>
-          <option>New Brunswick</option>
-          <option>Newfoundland & Labrador</option>
-          <option>Northwest Territories</option>
-          <option>Nova Scotia</option>
-          <option>Nunavut</option>
-          <option>Ontario</option>
-          <option>Prince Edward Island</option>
-          <option>Québec</option>
-          <option>Saskatchewan</option>
-          <option>Yukon</option>
-        </select>
-      </div>
-
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push">
-        <label for="nickname" class="push-1-8"> Postal Code </label>
-        <input id="nickname" name="nickname" class="push-1-8" required>
-        <p class="micro italic"></p>
-      </div>
-
-
     </div>
+  </footer>
 
-  </form>
-</main>
+</body>
+</html>

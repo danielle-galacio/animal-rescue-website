@@ -18,13 +18,14 @@
     <li><a href="#nav"> Jump to navigation</a></li>
     <li><a href="#main"> Jump to main content</a></li>
   </ul>
+
   <header role="banner">
     <div class="header grid grid-middle gutter bgcolor">
       <p class="logo push-0 unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-2 pad-b-1-2">
-        <i class="icon i-48"><img src="images/placeholder.svg" alt="" role="presentation"></i>
+        <i class="icon i-48"><img class="embed-item" src="images/placeholder.svg" alt="" role="presentation"></i>
         <a class="icon-link" href="index.html"><span class="name exa icon-label text-left">Loyal Rescue </span></a>
       </p>
-      <nav role="navigation" id="nav" class="nav unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-2 pad-b-1-2">
+      <nav role="navigation" id="nav" tabindex="0" class="nav unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-2 pad-b-1-2">
         <ul class="navstyle bold list-group-inline kilo push-0">
           <li class="gutter-1-4"><a class="micro navstyle ib gutter-1-4" href="index.html"><span>HOME</span></a></li>
           <li class="gutter-1-4"><a class="micro navstyle ib gutter-1-4" href="rescues.html"><span>RESCUES</span></a></li>
@@ -34,7 +35,7 @@
     </div>
   </header>
 
-  <main>
+  <main role="main" id="main" tabindex="0">
     <div>
       <div class="embed embed-16by19 banner">
         <div class="banner-content pad-b gutter-2">
@@ -87,7 +88,7 @@
     </article>
   </main>
 
-  <footer role="contentinfo" class="gutter pad-t pad-b bgcolor">
+  <footer role="contentinfo" class="gutter pad-t pad-b footerbg">
     <div class="grid">
       <h2 class="push-0 unit xs-1 s-1 m-1-4 l-1-4 pad-t-1-2 pad-b-1-2">
         <i class="icon i-32"><img src="images/placeholder.svg" alt="" role="presentation"></i>

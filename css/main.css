@@ -1,7 +1,7 @@
 html {
   background-color: #fff;
-  font-family: 'Open Sans', sans-serif;
-  color:#0C2026;
+  font-family: "Open Sans", sans-serif;
+  color: #0c2026;
 }
 
 .header {
@@ -9,8 +9,8 @@ html {
 }
 
 .name {
-  font-family: 'Solway', serif;
-  color: #00BDC9;
+  font-family: Solway, serif;
+  color: #00bdc9;
 }
 
 .masthead {
@@ -37,8 +37,8 @@ html {
 }
 
 .navstyle a:hover {
-  color: #00606D;
-  border-bottom: 3.5px solid #FFBF4B;
+  color: #00606d;
+  border-bottom: 3.5px solid #ffbf4b;
 }
 
 .bgcolor {
@@ -56,35 +56,35 @@ html {
 }
 
 h2, .bannertitle {
-  font-family: 'Solway', serif;
+  font-family: Solway, serif;
   color: #fff;
 }
 
 h1, h3 {
-  font-family: 'Solway', serif;
-  color: #00BDC9;
+  font-family: Solway, serif;
+  color: #182b45;
 }
 
 .banner p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-decoration: none;
   color: #fff;
 }
 
 .bannerbtn {
-  font-family: 'Solway', serif;
-  background-color: #00BDC9;
-  border: none;
-  border-radius: 75px;
-  color: #fff;
-}
-
-.bannerbtn:hover {
-  font-family: 'Solway', serif;
+  font-family: Solway, serif;
   background-color: #fff;
   border: none;
   border-radius: 75px;
-  color: #FFBF4B;
+  color: #182b45;
+}
+
+.bannerbtn:hover {
+  font-family: Solway, serif;
+  background-color: #182b45;
+  border: none;
+  border-radius: 75px;
+  color: #ffbf4b;
 }
 
 .card {
@@ -108,10 +108,11 @@ h1, h3 {
   .leftform {
     padding-right: 20px;
   }
+
 }
 
-.bgcolor {
-  background-color: #FBFBFB;
+.footerbg {
+  background-color: #fbfbfb;
 }
 
 .footerlink {
@@ -121,7 +122,7 @@ h1, h3 {
 
 .link-card {
   text-decoration: none;
-  color: 999;
+  color: #000;
 }
 
 @media only screen and (min-width: 38em) {
@@ -130,5 +131,13 @@ h1, h3 {
     padding-top: 0;
   }
 
+}
 
+.icon-label {
+  color: #182b45;
+}
+
+.next {
+  background-color: #0c2026;
+  color: #fff;
 }
