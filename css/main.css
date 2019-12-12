@@ -44,37 +44,23 @@ html {
 .bgcolor {
   background-color: #fff;
 }
-/*
-.banner-content {
-  background-image: url("../images/catdogbanner.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  color: #fff;
-  padding-top: 300px;
-}*/
 
 .banner {
   background:
     linear-gradient(rgba(16, 52, 41, 0) 50%, rgba(0, 0, 0, .8)),
-    url("../images/catdogbanner3.jpg");
+    url("../images/catdogbanner1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   padding-top: 300px;
 }
 
-h1 {
-  font-family: 'Solway', serif;
-  color: #00BDC9;
-}
-
-h2 {
+h2, .bannertitle {
   font-family: 'Solway', serif;
   color: #fff;
 }
 
-h3 {
+h1, h3 {
   font-family: 'Solway', serif;
   color: #00BDC9;
 }
